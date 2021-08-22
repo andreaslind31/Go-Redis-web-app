@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andreas Lind - portfolio - made with Golang</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Andreas Lind</h1>
+            <h3>.NET student</h3>
+            <form method="POST">
+                <textarea name="comment"></textarea>
+                <div>
+                    <button type="submit">Post comment</button>
+                </div>
+            </form>
+            <h3>comments: </h3>
+            {{ range . }}
+            <div>{{ . }}</div>
+            {{ end }}
+            <footer>Developed by <a href="https://www.linkedin.com/in/andreas-lind31/">Andreas Lind</a><br>
+                <i><small>This page was done using Golang, Redis, HTML5 & CSS3</small></i>
+            </footer>
+        </div>
+
+    </main>
+
+</body>
+
+</html>

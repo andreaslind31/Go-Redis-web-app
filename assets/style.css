@@ -1,0 +1,48 @@
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    color: white;
+    /* background: linear-gradient(116.82deg, #3D5467 0%, #1A232B 99.99%, #333333 100%); */
+    background: linear-gradient(117deg, #3A4856 0%, #1C3A4F 99.99%, #443522 100%);
+}
+main {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin: 20px 0 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #DB5461;
+}
+h3 {
+    font-size: 28px;
+    font-weight: 500;
+
+}
+h1, h3  {
+    font-style: normal;
+    line-height: 42px;
+    letter-spacing: 0.115em;
+
+}
+p {
+    font-weight: 100;
+    font-size: 22px;
+    padding: 2rem;
+}
+a {
+    color: white;
+    text-decoration: none;   
+}
+a:hover {
+    color:#DB5461;
+    
+}
+footer {
+    text-align: center;
+    padding: 2rem 0;
+}
