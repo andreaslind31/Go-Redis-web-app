@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andreas Lind - portfolio - made with Golang</title>
+    <title>Andreas Lind - portfolio - login</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/style.css">
@@ -14,20 +14,15 @@
 <body>
     <main>
         <div class="container">
-            <h1>Andreas Lind</h1>
-            <h3>.NET student</h3>
-
+            <h1>Register account</h1>
+            <h3>Do your thang below</h3>
             <form method="POST">
-                <textarea name="comment"></textarea>
+                <div>Username: <input name="username"></div>
+                <div>Password: <input name="password"></div>
                 <div>
-                    <button type="submit">Post comment</button>
+                    <button type="submit">Register</button>
                 </div>
             </form>
-            <h3>comments: </h3>
-             <!-- Go sends data from the data output part of the ExecuteTemplate func, code line 47 -->
-            {{ range . }}
-            <div>{{ . }}</div>
-            {{ end }}
             <footer>Developed by <a href="https://www.linkedin.com/in/andreas-lind31/">Andreas Lind</a><br>
                 <i><small>This page was done using Golang, Redis, HTML5 & CSS3</small></i>
             </footer>
