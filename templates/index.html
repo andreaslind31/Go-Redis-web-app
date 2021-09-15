@@ -13,6 +13,7 @@
 
 <body>
     <main>
+        <p> Or go to <a href="login">login with different user</a></p>
         <div class="container">
             <h1>Andreas Lind</h1>
             <h3>.NET student</h3>
@@ -24,7 +25,7 @@
                 </div>
             </form>
             <h3>comments: </h3>
-             <!-- Go sends data from the data output part of the ExecuteTemplate func, code line 47 -->
+             <!-- Go sends data from the data output part of the ExecuteTemplate func in utils/templates, code line 47 -->
             {{ range . }}
             <div>{{ . }}</div>
             {{ end }}
